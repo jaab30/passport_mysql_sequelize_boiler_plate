@@ -1,6 +1,5 @@
 
 # Passport Auth with MySQL and Sequelize Boiler Plate
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jaab30/passport-auth-with-mysql-and-sequelize-boiler-plate)
 
 ## Online Example:
 
@@ -47,7 +46,9 @@ npm install
 
 <img src="https://avatars0.githubusercontent.com/u/40499942?v=4" alt="avatar" style="border-radius: 16px" width="30" />
 
-If you have any questions about the repo, open an issue or contact [jaab30](https://api.github.com/users/jaab30) directly at jaab30@yahoo.com.
+If you have any questions about the repo, open an issue or contact [jaab30](https://github.com/jaab30) directly at jaab30@yahoo.com.
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jaab30/passport-auth-with-mysql-and-sequelize-boiler-plate)
 
 
 ## images
