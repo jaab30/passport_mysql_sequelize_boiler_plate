@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/superhero/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d7973d9d11.js" crossorigin="anonymous"></script>
+    <title>Auth with Passport</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="/">Auth with Passport</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/user/page2">Page Two</a>
+                </li>
+            </ul>
+        </div>
+        <a class="btn text-right text-white pr-0 text-primary" href="/user/profile">Hello <span
+                class="userName text-primary"></span></a>
+        <a class="btn text-right text-white mr-4" href="/user/profile"><i
+                class="fas fa-user-circle fa-2x text-primary"></i></a>
+        <a class="btn text-right text-white mr-4 bg-white text-dark" href="/auth/logout">Logout</a>
+    </nav>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4 mx-auto">
+                <h1>User Profile</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/user.js"></script>
+
+</body>
+</body>
+
+</html>
