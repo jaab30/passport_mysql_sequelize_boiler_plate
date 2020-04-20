@@ -13,8 +13,8 @@ const handleSubmit = async (e) => {
             email: emailInput.value,
             password: passwordInput.value
         }
-        await $.get("/auth/login", userObj)
-        window.location.href = "/"
+        await $.get("/auth/login", userObj);
+        window.location.href = "/";
     } catch (err) {
         const message = JSON.parse(err.responseText).message;
         divAlert.setAttribute("class", "alert alert-danger");

@@ -10,7 +10,7 @@ router.post("/register", async (req, res) => {
     try {
         const { email, password, passwordTwo } = req.body;
 
-        if (!email || !password || !passwordTwo) return res.status(400).json({ message: "Please fill all fields" });
+        if (!email || !password || !passwordTwo) res.status(400).json({ message: "Please fill all fields" });
 
         var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
         if (reg.test(email) == false) res.status(400).json({ message: "Invalid email format" });
