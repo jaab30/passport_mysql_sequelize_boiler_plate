@@ -52,11 +52,8 @@ If you have any questions about the repo, open an issue or contact [jaab30](http
 
 ## images
 
-<img src="https://user-images.githubusercontent.com/40499942/79766002-661d0e00-82f5-11ea-933f-f8b021c9ab44.jpg" alt="app example" style="width: 150px"/>
-<img src="https://user-images.githubusercontent.com/40499942/79766009-687f6800-82f5-11ea-9f9c-e41d4581bc05.jpg" alt="app example" style="width: 150px"/>
-<img src="https://user-images.githubusercontent.com/40499942/79766015-69b09500-82f5-11ea-957b-8d7b2505c189.jpg" alt="app example" style="width: 150px"/>
+<img src="https://user-images.githubusercontent.com/40499942/79766002-661d0e00-82f5-11ea-933f-f8b021c9ab44.jpg" alt="app example" style="width: 50px"/>
+<img src="https://user-images.githubusercontent.com/40499942/79766009-687f6800-82f5-11ea-9f9c-e41d4581bc05.jpg" alt="app example" style="width: 50px"/>
+<img src="https://user-images.githubusercontent.com/40499942/79766015-69b09500-82f5-11ea-957b-8d7b2505c189.jpg" alt="app example" style="width: 50px"/>
 
 
-![passport_auth1](https://user-images.githubusercontent.com/40499942/79766002-661d0e00-82f5-11ea-933f-f8b021c9ab44.jpg)
-![passport_auth2](https://user-images.githubusercontent.com/40499942/79766009-687f6800-82f5-11ea-9f9c-e41d4581bc05.jpg)
-![passport_auth3](https://user-images.githubusercontent.com/40499942/79766015-69b09500-82f5-11ea-957b-8d7b2505c189.jpg)
