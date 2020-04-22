@@ -10,14 +10,14 @@ router.post("/register", async (req, res) => {
     try {
         const { email, password, passwordTwo } = req.body;
 
-        if (!email || !password || !passwordTwo) res.status(400).json({ message: "Please fill all fields" });
+        if (!email || !password || !passwordTwo) return res.status(400).json({ message: "Please fill all fields" });
 
         var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-        if (reg.test(email) == false) res.status(400).json({ message: "Invalid email format" });
+        if (reg.test(email) == false) return res.status(400).json({ message: "Invalid email format" });
 
-        if (password.length < 6) res.status(400).json({ message: "Password needs to be at least 6 characters" });
+        if (password.length < 6) return res.status(400).json({ message: "Password needs to be at least 6 characters" });
 
-        if (password !== passwordTwo) res.status(400).json({ message: "Passwords don't match" });
+        if (password !== passwordTwo) return res.status(400).json({ message: "Passwords don't match" });
 
         const user = await db.User.findOne({ where: { email: email } })
 
