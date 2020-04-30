@@ -3,17 +3,14 @@ const apiRoutes = require("./apiRoutes");
 const htmlRoutes = require("./htmlRoutes");
 const authRoutes = require("./authRoutes");
 
-
 //auth routes
-
 router.use("/auth", authRoutes);
-//api route
+
+//api routes
 // router.use("/api", apiRoutes);
+
 //html routes
 router.use("/", htmlRoutes);
-
-
-
 
 
 module.exports = router

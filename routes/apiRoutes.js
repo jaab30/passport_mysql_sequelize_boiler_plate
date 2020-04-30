@@ -1,9 +1,11 @@
 // const router = require("express").Router();
 
-// you this file to code your API routes
+// use this file to code your API routes
 
-// route: /api
-// i.e: router.get("/", (req, res) => {
+// All routes start with: /api
+
+// Route: /api/example
+// i.e: router.get("/example", (req, res) => {
 //     //your code here
 // })
 

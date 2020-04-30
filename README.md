@@ -9,6 +9,10 @@ You can find an example of this boiler plate at: https://passport-auth-boiler-pl
 
 This is a ready to use boiler plate that uses Passport for User Authentication and MySQL with Sequelize for Data Storage.
 
+## Web Tools:
+
+HTML, CSS, Javascript (ES6), Bootswatch, Node.js, Express, Passport, MySQL, Sequelize.
+
 ## Table of Contents 
 
 * [Installation](#installation)

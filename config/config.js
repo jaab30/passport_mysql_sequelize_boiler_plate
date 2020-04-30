@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+// file to config MySQL database using Sequelize. we are using a .env file to pass the credentials.
 module.exports = {
 
     development: {
