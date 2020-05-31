@@ -4,7 +4,7 @@ const auth = require("../middleware/auth");
 
 
 // user authorized views - they all use the "auth" middleware
-router.get("/", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/index.html")));
+router.get("/", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/dashboard.html")));
 router.get("/user/page2", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/page2.html")));
 router.get("/user/profile", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/profile.html")));
 
