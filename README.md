@@ -3,7 +3,7 @@
 
 ## Online Example:
 
-You can find an example of this boiler plate at: https://passport-auth-boiler-plate.herokuapp.com/
+You can find an example of this boiler plate at: https://auth-passport.herokuapp.com/
 
 ## Description
 
