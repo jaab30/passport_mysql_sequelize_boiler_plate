@@ -34,7 +34,7 @@ npm install
     To start using this project: 
 
     1.  Install node modules (npm install). 
-    2.  Create new dabase in MySQL Server. 
+    2.  Create new database in MySQL Server. 
     3.  Create a .env file at the root location of the project and enter database credentials (see below):
     
             DB_USER = Your Database Username
