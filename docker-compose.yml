@@ -1,0 +1,26 @@
+version: '3'
+services:
+  mysql:
+    image: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    env_file:
+      - docker-db.env
+    volumes:
+      - sql-data:/var/lib/mysql
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    depends_on:
+      - mysql
+    ports:
+      - 8080:8080
+    volumes:
+      - /app/node_modules
+      - .:/app
+    env_file:
+      - docker-var.env
+volumes:
+  sql-data:
