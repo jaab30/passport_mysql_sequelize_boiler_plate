@@ -9,7 +9,7 @@ const app = express();
 const routes = require("./routes");
 
 // set up PORT
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 
 // use Middleware
 app.use(express.urlencoded({ extended: true }));
