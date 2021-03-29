@@ -64,7 +64,6 @@ router.post("/login", (req, res, next) => {
     passport.authenticate('local', (err, user, info) => {
         if (err) next(err);
         // if can't find email, or if password is incorrect, send error message (info)
-        console.log("user", user);
         if (!user) return res.status(404).json(info);
         // Log user
         req.logIn(user, function (err) {

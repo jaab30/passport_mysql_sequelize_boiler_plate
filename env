@@ -1,6 +1,0 @@
-# Database Info
-
-DB_USER = root
-DB_PASSWORD = rootroot
-DB_DATABASE = passport_auth
-DB_HOST = localhost

@@ -1,0 +1,26 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "server",
+      "image": "902288401987.dkr.ecr.us-east-2.amazonaws.com/passport-auth:Latest",
+      "hostname": "main",
+      "essential": false,
+      "memory": 128
+    },
+    {
+      "name": "nginx",
+      "image": "902288401987.dkr.ecr.us-east-2.amazonaws.com/passport-auth-nginx:Latest",
+      "hostname": "nginx",
+      "essential": true,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ],
+      "links": ["server"],
+      "memory": 128
+    }
+  ]
+}
